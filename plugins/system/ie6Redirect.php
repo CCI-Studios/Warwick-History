@@ -16,8 +16,8 @@ class plgSystemIE6Redirect extends JPlugin {
 	
 		if ($tmpl != 'ie6' && $app->isSite() && $this->params->get('redirect') == 'redirect') {
 			$browser =& JBrowser::getInstance();
-			if (stripos($browser->getAgentString(), 'chrome')) {
-			//if ($browser->getBrowser() == 'msie' && $browser->getMajor() == '7') {
+			//if (stripos($browser->getAgentString(), 'chrome')) {
+			if ($browser->getBrowser() == 'msie' && $browser->getMajor() == '6') {
 				$url = http_build_query(JRequest::get('get'));
 				if (strlen($url) > 0) {
 					$url .= '&tmpl=ie6';
@@ -35,8 +35,8 @@ class plgSystemIE6Redirect extends JPlugin {
 	
 		if ($app->isSite() && $this->params->get('redirect') == 'warn') {
 			$browser =& JBrowser::getInstance();
-			if (stripos($browser->getAgentString(), 'chrome')) {
-			//if ($browser->getBrowser() == 'msie' && $browser->getMajor() == '7') {
+			//if (stripos($browser->getAgentString(), 'chrome')) {
+			if ($browser->getBrowser() == 'msie' && $browser->getMajor() == '6') {
 				$body = JResponse::getBody();
 				
 				$pattern = "/(<body .*?>)/i";
