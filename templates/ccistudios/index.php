@@ -10,7 +10,7 @@ $testing = "true";
 ?>
 <html>
 <head>
-
+	<jdoc:include type="head" />
 
 
 <?php if ($testing): ?>
@@ -19,13 +19,16 @@ $testing = "true";
 
 
 <?php if ($testing): ?>
-	<link rel="stylesheet" type="text/css" href="/templates/<?php echo $this->template ?>/css/reset.css" />
-	<link rel="stylesheet" type="text/css" href="/templates/<?php echo $this->template ?>/css/grid.css" />
+	<link rel="stylesheet" type="text/css" href="/templates/<?php echo $this->template ?>/css/960/reset.css" />
+	<link rel="stylesheet" type="text/css" href="/templates/<?php echo $this->template ?>/css/960/960.css" />
+	<link rel="stylesheet" type="text/css" href="/templates/<?php echo $this->template ?>/css/960/text.css" />
 	<link rel="stylesheet" type="text/css" href="/templates/<?php echo $this->template ?>/css/forms.css" />
 	<link rel="stylesheet" type="text/css" href="/templates/<?php echo $this->template ?>/css/layout.css" />
-	<link rel="stylesheet" type="text/css" href="/templates/<?php echo $this->template ?>/css/template.css" />
+	<link rel="stylesheet" type="text/css" href="/templates/<?php echo $this->template ?>/css/modules.css" />
 	<link rel="stylesheet" type="text/css" href="/templates/<?php echo $this->template ?>/css/style.css" />
 	<link rel="stylesheet" type="text/css" href="/templates/<?php echo $this->template ?>/css/editorStyles.css" />
+	
+	<script type="text/javascript" src="/templates/<?php echo $this->template ?>/scripts/dropmenu.js"></script>
 <?php else: ?>
 	<link rel="stylesheet" type="text/css" href="/templates/<?php echo $this->template ?>/css/template.css" />
 <?php endif; ?>
@@ -45,7 +48,38 @@ $testing = "true";
   })();
 </script>
 <?php endif; ?>
-index.php
 
+	<div class="container_16">
+			<div class="grid_16">
+				<jdoc:include type="modules" name="header" style="xhtml" />
+			</div>
+			
+			<div class="grid_16">
+				<jdoc:include type="modules" name="menu" style="xhtml" />
+			</div>
+			
+			<div class="container_16">
+				<div class="grid_3 alpha">
+					sidebar
+				</div>
+				<div class="grid_10">
+					content
+				</div>
+				<div class="grid_3 omega">
+					sidebar
+				</div>
+			</div>
+			
+			<div class="container_16">
+				<div class="grid_8 alpha">
+					<p>Site by <a href="" target="">CCI Studios</a></p>
+				</div>
+				<div class="grid_8 omega">
+					<p>Copyright &copy; <?php echo date('Y'); ?> by COMPANY NAME</p>
+				</div>
+			</div>
+	</div>
+	
+	<div class="hidden"><jdoc:include type="modules" name="hidden" style="raw" /></div>
 </body>
 </html>

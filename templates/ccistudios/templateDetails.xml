@@ -27,6 +27,8 @@
     </files>
 
     <positions>
+    	<position>header</position>
+    	<position>menu</position>
     </positions>
 
     <params>
