@@ -1,0 +1,36 @@
+.slideshowblock {
+	position: relative;
+}
+.slideshowblock .currentImage {
+	position: relative;
+}
+.slideshowblock .newImage {
+	left: 0;
+	position: absolute;
+	top: 0;
+}
+.slideshowblock .newImage img { opacity: 0; }
+
+.slideshowblock .allImages {
+	display: none;
+}
+
+.slideshowblock .scrollers {
+	/*display: none; */
+	bottom: 10px;
+	position: absolute;
+	right: 35px;
+}
+
+.slideshowblock .scrollRight,
+.slideshowblock .scrollLeft {
+	float: left;
+	cursor: pointer;
+	margin: 0 5px;
+	
+	color: white;
+	font-size: 20px;
+}
+
+
+.slideshowblock img { display: block; }
