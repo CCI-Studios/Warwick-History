@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>Admin Helper</name>
+	<author>Jonathan bennett</author>
+	<creationDate>September 2010</creationDate>
+	<copyright>(C) 2010</copyright>
+	<license>na</license>
+	<authorEmail>jbennett@ccistudios.com</authorEmail>
+	<authorUrl>www.ccistudios.com</authorUrl>
+	<version>0.7.0</version>
+	<description>temp</description>
+	<files>
+		<filename module="mod_adminhelper">mod_adminhelper.php</filename>
+		<filename>html.php</filename>
+		<folder>tmpl</folder>
+	</files>
+	<params>
+	</params>
+</install>
