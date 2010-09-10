@@ -3,6 +3,7 @@ $root       = '~/subdomains/warwickhistory/';
 $site       = $root.'public_html/';
 $nooku		= $root.'Frameworks/Nooku/';
 $slideshow	= $root.'Slideshow/';
+$helper		= $root.'AdminHelper/';
 
 
 echo "<pre>";
@@ -72,4 +73,11 @@ shell_exec('ln -s '.
 	$slideshow.	'media/com_slideshow '.
 	$site.		'media/com_slideshow');
 echo "Installed Slideshow\n";
+
+shell_exec('rm '.$site.'administrator/modules/mod_adminhelper');
+shell_exec('ln -s '.
+	$helper.	'administrator/modules/mod_adminhelper '.
+	$site.		'administrator/modules/mod_adminhelper');
+echo "Installed Admin Helper module";
+
 echo "</pre>";
