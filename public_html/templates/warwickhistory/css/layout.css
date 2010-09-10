@@ -31,6 +31,8 @@ body {
 
 #menu {
 	margin: 0 60px 0 45px;
+	position: relative;
+	z-index: 999;
 
 	background: url(../images/menu.jpg) repeat-x;
 }
