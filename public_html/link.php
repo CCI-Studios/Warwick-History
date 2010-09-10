@@ -4,6 +4,7 @@ $site       = $root.'public_html/';
 $nooku		= $root.'Frameworks/Nooku/';
 $slideshow	= $root.'Slideshow/';
 $helper		= $root.'AdminHelper/';
+$kunena		= $root.'KunenaTemplate/';
 
 
 echo "<pre>";
@@ -78,6 +79,13 @@ shell_exec('rm '.$site.'administrator/modules/mod_adminhelper');
 shell_exec('ln -s '.
 	$helper.	'administrator/modules/mod_adminhelper '.
 	$site.		'administrator/modules/mod_adminhelper');
-echo "Installed Admin Helper module";
+echo "Installed Admin Helper module\n";
+
+shell_exec('rm '.$site.'components/com_kunena/template/warwick');
+shell_exec('ln -s '.
+	$kunena.	'components/com_kunena/template/warwick '.
+	$site.		'components/com_kunena/template/warwick');
+echo "Installed Kunena Template\n";
+
 
 echo "</pre>";
