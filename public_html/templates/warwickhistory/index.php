@@ -62,6 +62,10 @@ if ($testing)
 	</div></div>
 
 	<div id="content"><div>
+		<div id="search">
+			<jdoc:include type="modules" name="search" style="xhtml" />
+		</div>
+		
 		<jdoc:include type="component" />
 		<div class="clr"></div>
 	</div></div>
@@ -82,7 +86,11 @@ if ($testing)
 	<p class="left">Site By CCI Studios</p>
 	<p class="right">&copy; The Corporation of the County of Lambton 2010</p>
 
-	<div class="logos"></div>
+	<div class="logos">
+		<img src="/templates/warwickhistory/images/logos/lambton.png" alt="County of Lambton" />
+		<img src="/templates/warwickhistory/images/logos/warwick.png" alt="County of Lambton" />
+		<img src="/templates/warwickhistory/images/logos/ontario.png" alt="County of Lambton" />
+	</div>
 	<div class="clear"></div>
 </div></div>
 

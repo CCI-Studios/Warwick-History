@@ -12,6 +12,7 @@
         <![CDATA[
         ]]>
     </description>
+    
     <files>
 	    <folder>css</folder>    
     	<folder>html</folder>
@@ -26,12 +27,12 @@
         <filename>params.ini</filename>
     </files>
 
-    <positions>
-    	<position>header</position>
+	<positions>
+		<position>header</position>
     	<position>menu</position>
-	   <position>footer</position>
-
-	   <position>hidden</position>
+    	<position>search</position>
+		<position>footer</position>
+		<position>hidden</position>
     </positions>
 
     <params>

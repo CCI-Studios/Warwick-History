@@ -34,6 +34,7 @@
 	position: absolute;
 	top: 100%;
 	left: 0;
+	min-width: 100%;
 	
 	display: none;
 }
@@ -57,7 +58,7 @@
 
 .frill1, .frill2 {
 	top: -80px;
-	z-index: 3;
+	z-index: 4;
 
 	width: 426px;
 	height: 342px;
@@ -86,11 +87,15 @@
 
 .logos {
 	clear: both;
-	margin: 0 auto;
-	width: 209px;
-	height: 63px;
+	text-align: center;
+}
+/* @end */
 
-	background: url(../images/logos.png) no-repeat;
+/* @group Search */
+#search {
+	position: absolute;
+	top: 0;
+	right: 0;
 }
 /* @end */
 

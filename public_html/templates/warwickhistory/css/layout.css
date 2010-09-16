@@ -10,7 +10,7 @@ body {
 	margin-bottom: -3px;
 	
 	position: relative;
-	z-index: 4;
+	z-index: 5;
 }
 #sitetitle > div {
 	width: 883px;
@@ -32,9 +32,14 @@ body {
 #menu {
 	margin: 0 60px 0 45px;
 	position: relative;
-	z-index: 999;
+	z-index: 3;
 
 	background: url(../images/menu.jpg) repeat-x;
+}
+
+#header {
+	position: relative;
+	z-index: 2;
 }
 
 #content {

@@ -140,7 +140,7 @@ div.joomla div.multicolumns h1.title {
 div.joomla span.icon {
 	display: block;
 	margin-top: 10px;
-	float: right;
+	float: left;
 }
 
 div.joomla div.multicolumns span.icon {
@@ -153,11 +153,11 @@ div.joomla span.edit {
 }
 
 div.joomla span.pdf {
-	margin-right: 5px;
+	margin-left: 10px;
 }
 
 div.joomla span.print {
-	margin-right: 5px;
+	margin-left: 10px;
 }
 
 div.joomla span.email {
