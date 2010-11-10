@@ -17,7 +17,7 @@
 
 /* ------------------------- COLOR PALETTE FOR BLUE EAGLE
 
-Dark blue color: 			#5388B4			RGB: 83/136/180  #9B7E5F
+Dark blue color: 			#b49f79			RGB: 83/136/180  #9B7E5F
 Medium blue color: 			#609FBF			RGB: 96/159/191
 Light grey color:			#F2F1EE 		RGB: 242/241/238
 Medium grey color:			#999999 		RGB: 153/153/153
@@ -113,7 +113,7 @@ PX		EM			PCT			PT
 }
 #Kunena a:link,
 #Kunena a:visited,
-#Kunena a:active {color: #5388B4;}
+#Kunena a:active {color: #b49f79;}
 #Kunena a:focus {outline: none;}
 #Kunena a:hover {color: #FF0000;}
 
@@ -205,12 +205,12 @@ PX		EM			PCT			PT
 }
 #Kunena .kblock div.kheader {
 	border-bottom:2px solid #D9D9D9;
-	background: #5388B4;
+	background: #b49f79;
 	color: #FFFFFF;
 	padding:0 20px 0 10px;
 }
 #Kunena div.kblock div.ktitle {
-	background: #5388B4;
+	background: #b49f79;
 	text-align: left;
 	display: table-row;
 	width:100%;
@@ -485,7 +485,7 @@ PX		EM			PCT			PT
 }
 
 #Kunena .kwho-user {
-	color: #5388B4 !important;
+	color: #b49f79 !important;
 }
 
 #Kunena .kwho-guest {
@@ -508,7 +508,7 @@ PX		EM			PCT			PT
 	color: #000000;
 	margin: 0;
 	border-style: solid;
-	border-color: #5388B4;
+	border-color: #b49f79;
 	border-top-width: 0;
 	border-right-width: 0;
 	border-bottom-width: 3px;
@@ -517,7 +517,7 @@ PX		EM			PCT			PT
 }
 
 #Kunena #ktop span.ktoggler {
-	background: #5388B4;
+	background: #b49f79;
 	margin:-16px 0;
 	padding:1px 1px 0;
 }
@@ -595,7 +595,7 @@ PX		EM			PCT			PT
 #Kunena #ktab a:hover,
 #Kunena #ktab li.Kunena-item-active a	{
 	background-position: right bottom;
-	background-color: #5388B4;
+	background-color: #b49f79;
 }
 
 #Kunena #ktab a:hover span,
@@ -634,7 +634,7 @@ PX		EM			PCT			PT
 	border:none;
 }
 #ktab ul.menu li#current.active a {
-	background-color:#5388B4;
+	background-color:#b49f79;
 }
 	
 #Kunena option {
@@ -677,7 +677,7 @@ PX		EM			PCT			PT
 #Kunena .kbutton:focus {
 	background: #609FBF none repeat scroll 0 0;
 	font-size: .917em;
-	border: 1px solid #5388B4;
+	border: 1px solid #b49f79;
 	color: #FFFFFF;
 	padding: 0px 4px;
 }
@@ -905,7 +905,7 @@ PX		EM			PCT			PT
 }
 
 #Kunena .kpagination a {
-	border:solid 1px #5388B4;
+	border:solid 1px #b49f79;
 	background: #ffffff;
 }
 #Kunena .kpagination li.page {
@@ -916,8 +916,8 @@ PX		EM			PCT			PT
 	font-weight:bold;
 } 
 #Kunena .kpagination .active {
-	border:solid 1px #5388B4;
-	background:#5388B4;
+	border:solid 1px #b49f79;
+	background:#b49f79;
 	color:#FFFFFF;
 	font-weight:bold;
 	padding:3px 5px;
@@ -925,7 +925,7 @@ PX		EM			PCT			PT
 }
 #Kunena .kpagination a:link,
 #Kunena .kpagination a:visited {
-	color:#5388B4;
+	color:#b49f79;
 	display:block;
 	padding:3px 5px;
 	margin: 2px;
@@ -936,7 +936,7 @@ PX		EM			PCT			PT
 	margin: 0;
 }
 #Kunena .kpagination a:hover{
-	border:solid 1px #5388B4;
+	border:solid 1px #b49f79;
 	color: #ffffff;
 	background: #609FBF;
 }
@@ -961,7 +961,7 @@ PX		EM			PCT			PT
 	background: #ffffff;
 }
 #Kunena div.ktopic-title-cover ul.kpagination a:hover{
-	border:solid 1px #5388B4;
+	border:solid 1px #b49f79;
 	color: #ffffff;
 	background: #609FBF;
 }
@@ -1406,7 +1406,7 @@ PX		EM			PCT			PT
 
 #Kunena div.kmsg-header {
 	border-bottom:2px solid #D9D9D9;
-	background: #5388B4;
+	background: #b49f79;
 	color: #FFFFFF;
 	padding:0;
 }
@@ -2484,7 +2484,7 @@ Multi file upload for bbcode editor
 #Kunena .kfile-input-button:hover,
 #Kunena .kfile-input-button:focus {
 	background: #609FBF none repeat scroll 0 0;
-	border: 1px solid #5388B4;
+	border: 1px solid #b49f79;
 	color: #FFFFFF;
 }
 #Kunena .kattachment-remove,
@@ -3205,7 +3205,7 @@ div#kprofile-stats ul li span.krank-admin {
 	color: #fff;
 	height: 14px; 
 	width: 15px;
-	background-color: #5388B4;
+	background-color: #b49f79;
 }
 #Kunena #kprofilebox-toggle {
 	display:block;

@@ -1,0 +1,192 @@
+/* @override http://cat.lclmg.org:8080/lambtonvw/vubisnn.css */
+
+body > img { display: none; }
+table {
+	border-collapse: collapse;
+}
+
+/*A l g e m e n e   i n s t e l l i n g e n*/
+body      {
+	background: url(http://warwickhistory.ccistaging.com/templates/warwickhistory/images/body_bg.png) repeat-y center center;
+	color: #000000;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 13px;
+}
+A:link    {color: #0000FF}                      /* link kleur */
+A:visited {color: #0000FF}                      /* kleur visited links */
+A:active  {color: red}                          /* kleur aktieve link */
+
+  /* h e a d e r s  en  b a l k e n */
+.header { width: 90; text-align: center; vertical-align: middle; } /* kop pagina */
+.headertitle { color: #3347B2; font-weight: bold; text-align: center; vertical-align: top}  /* titel in kop pagina */
+.subheader {background-color: #D6DAF3; color: #3333CC; font-weight: bold;  }  /* subtitel in kop pagina */
+.subheader em  { color: black; font-style: normal}   /* em-tag binnen subheader */
+.titlebar { background-color: #1F2F89; color: #FFFFFF; font-weight: bold; text-align: center; vertical-align: middle}   /* titlebar */
+.usertitlebar {background-color: #E22222; color: #FFFFFF; font-weight: bold; vertical-align: middle}   /* titlebar with user data */
+.submcancelbalk {background-color: #D6DAF3; text-align: center}   /*balk met submit/cancel buttons*/
+.buttontekst { 
+	color: #FFFFFF; 
+	text-align: center; 
+	background-color: #524835;
+	vertical-align: top;
+}
+.buttontekst2 { 
+	color:#99BBBB;
+	background-color: #23B099;
+    text-align: left;
+}
+.listbuttons { 
+	color:#99BBBB;
+	background-color: #AAA0A9;
+    text-align: left;
+}
+.fullbbbuttons { 
+	color:#99BBBB;
+	background-color: #3366FF;
+}
+.buttontekstnoactive { 
+	color: #99BBBB;
+	background-color: #33A0A9;
+	width:90px;
+}
+.button A:link { width : 100%; height : 100% }
+.button A:visited { width : 100%; height : 100% }
+
+.listbuttons A:link, .listbuttons A:visited,
+.buttontekst2 A:link, .buttontekst2 A:visited,
+.buttontekst A:link, .buttontekst A:visited,
+.fullbbbuttons A:link, .fullbbbuttons A:visited { color: white; text-decoration: none; width : 100%; height : 100% }
+
+.buttontekst2, .listbuttons,
+.fullbbuttons, .buttontekstnoactive {
+	font-weight: bold;	
+	text-decoration: none;
+}
+
+.StartElements { color: #0000CC; font-weight: normal; vertical-align: top; }
+
+  /* t a b s */
+.tabactive, .tabDatabase,
+.tabRestrictions, .tabnoactive {
+	color: #fff;
+	text-align: center;
+	vertical-align: middle;
+}  
+th.tabactive, th.tabDatabase,
+th.tabRestrictions, th.tabnoactive {
+	font-size: 12px;
+}
+  
+  
+.tabactive { background-color: #574737; }
+.tabDatabase { background-color: #1F2F89; }
+.tabRestrictions { background-color: #636BA9; }
+.tabnoactive { background-color: #B29B85; }
+
+.tabactive A:link, .tabactive A:visited,
+.tabnoactive A:link, .tabnoactive A:visited { color: #FFFFFF; text-decoration: none ; width: 100%; height : 100% }
+
+#tableft { text-align:left; display: none; }
+#tabright { text-align:right; display: none; } 
+#tabitem { text-align:left; } 
+#tabitem A:link { color: #FFFFFF; }  
+#tabbutton { text-align: left;}
+#tabboolbox { text-align: right;}
+
+
+   /* l i s t s */
+.listhead, .listsubhead,
+.listheadpages {
+	background-color: #b49f79;
+	color: #fff;
+	vertical-align: middle;
+}   
+.listhead { font-weight: bold; }
+.listsubhead { font-weight: normal; }
+.listheadpages { font-weight: bold; text-align: right; }
+
+
+.listitemOdd, .listitemEven {	
+}
+.listitemOdd A:link, .listitemOdd A:visited,
+.listitemEven A:link, .listitemEven A:visited {
+	color: #000030; 
+	text-decoration: none;
+}
+.listitemEven { background-color: #b49f79; }
+
+
+.listitemextend {color: #0066DD; font-weight: normal; vertical-align: top}
+.listitemextend A:link {color: #0066DD; text-decoration: none} 
+
+.SearchPartHeader, .SearchPartText { background-color: #CCDDFF; color: #0000CC; }
+.SearchPartHeader { font-weight: bold; }
+.SearchPartText { font-weight: normal; }
+.SearchPartText A:link, .SearchPartText A:visited,
+.SearchPartText A:hover {color: #0000CC; text-decoration: none}
+.SearchPartText A:hover { color: #FF0000; }
+
+.SearchPartCounter {background-color: #CCDDFF; color: #0000CC; text-align: right; font-weight: normal; }
+
+   /* v o l l e d i g e  b e s c h r i j v i n g */
+.descrname {
+	color: #000030;
+	font-size: 8.2px;
+	vertical-align: top;
+}
+.descrname { font-weight: bold; }
+.descrnamecurs { font-style: italic; }
+.descrdata { font-weight: normal; text-decoration: none; }
+
+.descrdata A:link, .descrdata A:visited,
+.descrdata A:hover {color: #0000CC; text-decoration: none}
+.descrdata A:hover {color: #FF0000; }
+
+  /* t r e e s   */
+.TreeTable { background-color:#CCE0EF; }
+.TreeElement { color: #223399; text-decoration : none; }
+.TreeElement A:link, .TreeElement A:visited,
+.TreeElement A:hover  { text-decoration: none; color: #223399 }
+.TreeElement A:hover { color: #C10000 }
+
+   /*f o u t m e l d i n g e n  e . d . */
+.message {font-weight: bold; font-size: 1.2em; color: #3347B2; text-align: center;}
+
+  /* m e n u */
+.menutext { background-color: #d4dfef; font-weight: normal; color: black; }
+.menutext A:link, .menutext A:visited
+.menutext A:hover { color: blue; text-decoration: none; }
+
+  /* w a r n i n g */
+.warning { font-weight: bold; color: red; }
+
+  /* form button */
+.formbutton { color: #000; font-weight:bold; text-align: center; background-color: #23B099; vertical-align: top; }
+.formbutton A:link {color: #FFFFFF; text-decoration: none ; width : 100%; height : 100% } 
+.formbutton A:visited {color: #FFFFFF; text-decoration: none ; width : 100%; height : 100% }
+
+
+/*========================*/
+/* K l e u r e n          */
+/*========================*/
+/*  #FFFFFF   wit         */
+/*  #3347B2   donkerblauw */
+/*  #D6DAF3   lichtpaars  */
+/*  #F4A54E   oranje      */
+/*  #F4C54E   oker        */
+/*  #000000   zwart       */
+/*  #FFFFFF   wit         */
+/*  #3347B2   donkerblauw */
+/*  'red'     rood        */
+/*  'green    groen       */
+/*  #0000FF   blauw       */
+/*========================*/
+
+/* for the portal prototype - HDR18081 - coloured blocks to indicate which database a record is from */
+.PortalDB1 {width:15px; align:center; background-color:crimson; color:#600000}
+.PortalDB2 {width:15px; align:center; background-color:gold; color:#606000}
+.PortalDB3 {width:15px; align:center; background-color:seagreen; color:#006000}
+.PortalDB4 {width:15px; align:center; background-color:lightskyblue; color:#006060}
+.PortalDB5 {width:15px; align:center; background-color:mediumaquamarine; color:#000060}
+.PortalDB6 {width:15px; align:center; background-color:steelblue; color:#000060}
+.PortalDB7 {width:15px; align:center; background-color:gainsboro; color:#000060}

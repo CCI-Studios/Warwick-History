@@ -66,7 +66,7 @@ if ($testing)
 			<jdoc:include type="modules" name="search" style="xhtml" />
 		</div>
 		
-		<jdoc:include type="component" />
+		<div><jdoc:include type="component" /></div>
 		<div class="clr"></div>
 	</div></div>
 
