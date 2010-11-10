@@ -1,7 +1,7 @@
 <?php
 defined('KOOWA') or die;
 
-class ComSlideshowTableImages extends KDatabaseTableDefault {
+class __ComSlideshowDatabaseTableImages extends KDatabaseTableAbstract {
 
 	public function __construct(KConfig $config) {
 		$config->name	= 'slideshow_view_images';

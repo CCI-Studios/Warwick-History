@@ -2,7 +2,7 @@
 defined('KOOWA') or die;
 JImport('joomla.filesystem.file');
 
-class ComSlideshowRowImage extends KDatabaseRowAbstract {
+class ComSlideshowDatabaseRowImage extends KDatabaseRowAbstract {
 	protected $storage = '/media/com_slideshow/images/slideshows/';
 
 	public function save() {
@@ -22,6 +22,7 @@ class ComSlideshowRowImage extends KDatabaseRowAbstract {
 				while (JFile::exists($dest)) {
 					$dest = JPATH_SITE.$this->storage. $safename.$i.'.'.$extension;
 					$filename = $this->storage. $safename.$i.'.'.$extension;
+					$i++;
 				}
 
 				if (JFile::upload($src, $dest)) {

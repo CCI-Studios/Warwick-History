@@ -339,21 +339,6 @@ div.module-newsflash div.last {
 	padding-bottom: 0px;
 }
 
-/*
- * legacy Joomla styling only for third party components
- */
-
-.contentheading,
-.componentheading {
-	margin: 0px 0px 0px 0px;
-	padding: 5px 0px 5px 0px;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 250%;
-	line-height: 100%;
-	font-weight: bold;
-	color: #c8001e;
-	letter-spacing: -1px;
-}
 
 /*
  * Joomla! system tooltips

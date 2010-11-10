@@ -15,4 +15,5 @@ defined('KOOWA');
 <div class="clr"></div>
 </form>
 
+<script src="media://lib_koowa/js/koowa.js" />
 <style src="media://com_default/css/form.css" />

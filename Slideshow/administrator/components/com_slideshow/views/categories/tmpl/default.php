@@ -18,7 +18,7 @@ defined('KOOWA') or die;
 	<tfoot>
 		<tr>
 			<td colspan="20" align="center">
-				<?=@helper('admin::com.default.helper.paginator.pagination', array('state'=>$state, 'total'=>$total))?>
+				<?=@helper('paginator.pagination', array('state'=>$state, 'total'=>$total))?>
 			</td>
 	</tfoot>
 	
