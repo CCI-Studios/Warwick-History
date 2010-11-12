@@ -33,8 +33,9 @@
 .moduletable.dropmenu ul ul {
 	position: absolute;
 	top: 100%;
-	left: 0;
-	min-width: 100%;
+	left: 50%;
+	width: 10em;
+	margin-left: -5em;
 	
 	display: none;
 }
