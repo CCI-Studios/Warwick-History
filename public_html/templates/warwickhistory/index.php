@@ -83,7 +83,7 @@ if ($testing)
 </div></div>
 
 <div id="copyright"><div>
-	<p class="left">Site By CCI Studios</p>
+	<p class="left">Site By <a href="http://www.ccistudios.com/" target="_blank">CCI Studios</a></p>
 	<p class="right">&copy; The Corporation of the County of Lambton 2010</p>
 
 	<div class="logos">

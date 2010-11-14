@@ -95,7 +95,7 @@ var CCI_Slideshow = new Class({
 	stop: function() {
 		$clear(this.timer)
 		this.timer = null;
-	},
+	}
 });
 
 window.addEvent('load', function() {

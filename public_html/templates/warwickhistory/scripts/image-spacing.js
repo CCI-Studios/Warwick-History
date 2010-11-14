@@ -2,8 +2,8 @@ window.addEvent('domready', function() {
 	image_autospace('img.autosize', 18);
 });
 
-function image_autospace(class, lineHeight) {
-	images = $$(class);
+function image_autospace(cls, lineHeight) {
+	images = $$(cls);
 	
 	images.each(function(image) {
 		height = image.getSize().size.y;

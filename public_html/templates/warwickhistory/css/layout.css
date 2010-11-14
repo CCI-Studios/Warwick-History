@@ -43,10 +43,14 @@ body {
 }
 
 #content {
-	padding: 20px 60px 1px 45px;
+	padding: 0 21px 0 4px;
 	background: url(../images/body_bg.png) 0 0 repeat-y;
 }
-#content > div { position: relative; }
+#content > div { 
+	position: relative;
+	border-top: 1px solid black;
+	padding: 15px 39px 1px 41px;
+}
 
 #footer {
 	width: 980px;
@@ -55,7 +59,7 @@ body {
 	position: relative;
 	z-index: 2;
 
-	background: url(../images/body_bg_bottom.png) no-repeat;
+	background: url(../images/body_bg_bottom.png) no-repeat -6px;
 	line-height: 50px;
 }
 #footer > div {
