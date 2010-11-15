@@ -3,13 +3,13 @@
 }
 .slideshowblock .currentImage {
 	position: relative;
+	left: -22px;
 }
 .slideshowblock .newImage {
-	left: 0;
+	left: -22px;
 	position: absolute;
 	top: 0;
 }
-.slideshowblock .newImage img { opacity: 0; }
 
 .slideshowblock .allImages {
 	display: none;

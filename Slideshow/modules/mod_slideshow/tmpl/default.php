@@ -1,16 +1,17 @@
 <div class="slideshowblock">
-	<? if (isset($image1)): ?>
-	<div class="currentImage">
-		<img src="<?=$image1->filename?>" alt="<?=$image1->title?>" />
-	</div>
-	<? endif; ?>
-	
 	<? if (isset($image2)): ?>
 	<div class="newImage">
 		<img src="<?=$image2->filename?>" alt="<?=$image2->title?>" />
 	</div>
 	<? endif; ?>
 	
+	<? if (isset($image1)): ?>
+	<div class="currentImage">
+		<img src="<?=$image1->filename?>" alt="<?=$image1->title?>" />
+	</div>
+	<? endif; ?>
+	
+	<?php if (count($images) > 1): ?>
 	<div class="scrollers">
 		<div class="scrollLeft">
 			<img src="media://com_slideshow/images/left.png" alt="Previous" />
@@ -19,6 +20,7 @@
 			<img src="media://com_slideshow/images/right.png" alt="Next" />
 		</div>
 	</div>
+	<?php endif; ?>
 	
 	<div class="allImages">
 		<? foreach($images as $image): ?>

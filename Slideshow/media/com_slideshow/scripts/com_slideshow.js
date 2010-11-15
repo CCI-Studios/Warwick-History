@@ -37,19 +37,21 @@ var CCI_Slideshow = new Class({
 			this.alts.push(images[i].alt);
 		}
 		
-		this.scrollLeft.addEvent('click', this.prev.bind(this));
-		this.scrollRight.addEvent('click', this.next.bind(this));
+		if (this.scrollLeft)
+			this.scrollLeft.addEvent('click', this.prev.bind(this));
+		if (this.scrollRight)
+			this.scrollRight.addEvent('click', this.next.bind(this));
 		
 		this.active 		= 0;
 		
-		this.fx				= this.newImage.effect('opacity', {
+		this.fx				= this.currentImage.effect('opacity', {
 			duration: this.duration
 		});
 		this.fx.addEvent('onComplete', function(e) {
+			this.fx.set(1);
 			this.currentImage.alt = this.newImage.alt
 			this.currentImage.src = this.newImage.src;
-			
-			this.fx.set(0);
+
 			this.timer = this.next.delay(this.delay, this);
 		}.bind(this));
 		
@@ -82,14 +84,16 @@ var CCI_Slideshow = new Class({
 		$clear(this.timer);
 		this.timer = null;
 	
+		this.fx.set(1);
 		this.newImage.alt = this.alts[this.active];
 		this.newImage.src = this.images[this.active];
-		
-		this.fx.set(0);
-		this.fx.start(1);
+		this.fx.start(0);
 	},
 	
 	start: function() {
+		if (this.images.length == 1 || this.images.length == 0)
+			return;
+		
 		this.timer = this.next.delay(this.delay, this);
 	},
 	stop: function() {
