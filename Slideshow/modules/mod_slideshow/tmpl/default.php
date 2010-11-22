@@ -1,15 +1,15 @@
 <div class="slideshowblock">
 	<div class="newImage">
 	<? if (isset($image2)): ?>
-		<img src="<?=$image2->filename?>" alt="<?=$image2->title?>" />
+		<img src="<?=$image2->filename?>" alt="" />
 	<? elseif (isset($image1)): ?>
-		<img src="<?=$image1->filename?>" alt="<?=$image1->title?>" />
+		<img src="<?=$image1->filename?>" alt="" />
 	<? endif; ?>
 	</div>
 	
 	<? if (isset($image1)): ?>
 	<div class="currentImage">
-		<img src="<?=$image1->filename?>" alt="<?=$image1->title?>" />
+		<img src="<?=$image1->filename?>" alt="" />
 	</div>
 	<? endif; ?>
 	
