@@ -12,12 +12,9 @@
 
 defined ( '_JEXEC' ) or die ( 'Restricted Access' );
 ?>
-<h1 class="<?php
-echo $this->class_suffix;
-?>"
-	style="float: left; border: none !important;"><?php
-	echo $this->catName;
-	?></h1>
+<h1 class="<?php echo $this->class_suffix; ?>">
+	<?php	echo $this->catName;	?>
+</h1>	
 <?php
 if (isset ( $this->submit_picture_layout )) {
 	echo $this->submit_picture_layout;

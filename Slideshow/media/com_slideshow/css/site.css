@@ -1,14 +1,14 @@
 .slideshowblock {
 	position: relative;
+	background: url(../images/background.png);
 }
 .slideshowblock .currentImage {
-	position: relative;
-	left: -22px;
+	background: transparent url(../images/trans.png);
+	position: absolute;
+	left: 0;
+	top: 0;
 }
 .slideshowblock .newImage {
-	left: -22px;
-	position: absolute;
-	top: 0;
 }
 
 .slideshowblock .allImages {
@@ -16,7 +16,6 @@
 }
 
 .slideshowblock .scrollers {
-	/*display: none; */
 	bottom: 10px;
 	position: absolute;
 	right: 35px;

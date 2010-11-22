@@ -40,6 +40,8 @@ body {
 #header {
 	position: relative;
 	z-index: 2;
+	width: 1008px;
+	margin-left: -23px;
 }
 
 #content {

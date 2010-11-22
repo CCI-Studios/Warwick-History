@@ -1,5 +1,5 @@
-window.addEvent('domready', function() {
-	image_autospace('img.autosize', 18);
+window.addEvent('load', function() {
+	//image_autospace('img.autosize', 18);
 });
 
 function image_autospace(cls, lineHeight) {

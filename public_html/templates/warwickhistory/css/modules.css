@@ -37,7 +37,7 @@
 }
 .moduletable.menu li:hover > span,
 .moduletable.menu li:hover > a {
-	color: white;
+	color: #DCD1C7;
 	text-decoration: none;
 }
 /* @group drop menu */
@@ -134,3 +134,11 @@ div #Kunena a:link, div #Kunena a:visited,
 div #Kunena a:active { color: #ab927a; }
 div #Kunena .kblock div.kheader,
 div #Kunena .kblock div.kheader { background: #9f8266 !important; }
+
+/* site map */
+.sitemap {
+	margin: 0 0 1em 2em;
+} 
+.sitemap ul {
+	margin: 0 0 0 1em;
+}

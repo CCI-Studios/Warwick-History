@@ -44,7 +44,7 @@ var CCI_Slideshow = new Class({
 		
 		this.active 		= 0;
 		
-		this.fx				= this.currentImage.effect('opacity', {
+		this.fx				= $(this.currentImage.parentNode).effect('opacity', {
 			duration: this.duration
 		});
 		this.fx.addEvent('onComplete', function(e) {
