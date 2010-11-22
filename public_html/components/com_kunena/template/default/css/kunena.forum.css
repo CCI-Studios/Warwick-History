@@ -83,7 +83,6 @@ PX		EM			PCT			PT
 #Kunena div,
 #Kunena p,
 #Kunena span {
-	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1em;
 }
 #Kunena sup {
@@ -176,7 +175,6 @@ PX		EM			PCT			PT
 #Kunena .knewchar {
 	color: #009900;
 	font-weight: bold;
-	font-family: Arial, Helvetica, sans-serif;
 	margin-left: 3px;
 	font-size: .75em;
 	vertical-align:top;
@@ -331,7 +329,6 @@ PX		EM			PCT			PT
 	background: #737373;
 	color: #fff;
 	font-size: 1em;
-	font-family: Arial, Helvetica, sans-serif;
 }
 #Kunena tr.ksth th{
 	padding: 3px 5px;
@@ -583,7 +580,6 @@ PX		EM			PCT			PT
 #Kunena #ktab a span {
 	display: block;
 	padding: 0 1.1em;
-	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1em; 
 	color: #FFFFFF;
 	line-height: 2.3em;
@@ -718,7 +714,6 @@ PX		EM			PCT			PT
 	border-left: 1px solid #BFC3C6;
 	color: #666666;
 	float: right;
-	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1.333em;
 	font-weight: bold;
 	height: 28px;
@@ -774,7 +769,6 @@ PX		EM			PCT			PT
 #Kunena .klist-pages-all {
 	border-left: 1px solid #BFC3C6;
 	color: #666666;
-	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1.333em;
 	font-weight: bold;
 	height: 28px;
@@ -1276,7 +1270,6 @@ PX		EM			PCT			PT
 
 #Kunena .ktitle,
 #Kunena a.ktitle {
-	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
 	display: block;
 	color: #FFFFFF;
@@ -1285,14 +1278,12 @@ PX		EM			PCT			PT
 }
 
 #Kunena .ktitle a {
-	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
 	color: #FFFFFF;
 	text-decoration: none;
 }
 
 #Kunena div.kthead-title a {
-	font-family: Lucida Grande, Lucida, Arial, Helvetica, sans-serif;
 	font-size: .917em;
 	display: inline-block;
 	float: left;
@@ -1496,7 +1487,6 @@ PX		EM			PCT			PT
 	text-decoration: none;
 	padding-left: 5px;
 	/*font-size: .833em;*/
-	font-family: Arial, Helvetica, sans-serif;
 	white-space: nowrap;
 	/*float: left;*/
 	color: #FFFFFF;
@@ -1602,7 +1592,6 @@ PX		EM			PCT			PT
 	border-right: 1px solid #BFC3C6;
 	border-top: 1px solid #BFC3C6;
 	border-bottom: 1px solid #BFC3C6;
-	font-family: "Courier News", Courier, monospace;
 	font-weight: normal;
 	line-height: 1.5;
 	margin: 3px 0 10px 0;
@@ -1697,7 +1686,6 @@ PX		EM			PCT			PT
 	border: 1px dotted #BFC3C6;
 	margin: 5px 0pt;
 	padding: 5px;
-	font-family: Arial, Helvetica, sans-serif;
 	font-style: italic;
 	background: #F2F1EE;
 }
@@ -2177,7 +2165,6 @@ POST PAGE
 	text-transform: uppercase;
 	/* We need to use fixed font size: button does not grow */
 	font-size: 11px;
-	font-family: Arial, Helvetica, sans-serif;
 	text-decoration: none;
 	cursor: pointer;
 	line-height: 145%;
@@ -3271,7 +3258,6 @@ ul.autocompleter-choices {
 	border-bottom-color:	#ddd;
 	background-color:		#fff;
 	text-align:				left;
-	font-family:			Verdana, Geneva, Arial, Helvetica, sans-serif;
 	z-index:				50;
 	background-color:		#fff;
 }
@@ -3453,7 +3439,6 @@ ul.autocompleter-choices li.kautocompleter-selected span.kautocompleter-queried 
 }
 
 #lbBottom {
-	font-family: Verdana, Arial, Geneva, Helvetica, sans-serif;
 	font-size: 10px;
 	color: #666;
 	line-height: 1.4em;
