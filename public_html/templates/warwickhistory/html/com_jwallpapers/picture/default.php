@@ -51,7 +51,7 @@ if (isset ( $this->editors_pick_admin_layout )) {
 	$document->addScript ( 'administrator/components/' . $option . '/js/ajaxTagUntagEP.js' );
 }
 
-if (! $this->show_navigation && isset ( $this->go_back_link )) {
+if (! $this->show_navigation && isset ( $this->go_back_link ) && false) {
 	echo $this->go_back_link;
 }
 
