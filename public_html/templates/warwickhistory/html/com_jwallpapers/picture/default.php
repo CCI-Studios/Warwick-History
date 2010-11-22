@@ -79,14 +79,14 @@ if ($this->show_navigation) {
     <?php
 	echo '<div class="nav_left' . $this->class_suffix . '">';
 	if (isset ( $this->links->prevPic )) {
-		echo '<a class="not_nav_limit_left' . $this->class_suffix . '" href="' . $this->links->prevPic . '" title="' . htmlspecialchars ( JText::_ ( 'PREVIOUS' ), ENT_QUOTES ) . '"></a>';
+		echo '<a class="not_nav_limit_left' . $this->class_suffix . '" href="' . $this->links->prevPic . '" title="' . htmlspecialchars ( JText::_ ( 'PREVIOUS' ), ENT_QUOTES ) . '">Prev Picture</a>';
 	} else {
 		echo '<a class="nav_limit_left' . $this->class_suffix . '"></a>';
 	}
 	echo '</div>';
 	echo '<div class="nav_right' . $this->class_suffix . '">';
 	if (isset ( $this->links->nextPic )) {
-		echo '<a class="not_nav_limit_right' . $this->class_suffix . '" href="' . $this->links->nextPic . '" title="' . htmlspecialchars ( JText::_ ( 'NEXT' ), ENT_QUOTES ) . '"></a>';
+		echo '<a class="not_nav_limit_right' . $this->class_suffix . '" href="' . $this->links->nextPic . '" title="' . htmlspecialchars ( JText::_ ( 'NEXT' ), ENT_QUOTES ) . '">Next Picture</a>';
 	} else {
 		echo '<a class="nav_limit_right' . $this->class_suffix . '"></a>';
 	}
@@ -170,7 +170,7 @@ if (! $this->disable_downloads) {
 <?php
 
 
-if ($this->right_area_width > 0) {
+if ($this->right_area_width > 0 && false) {
 	
 	?>
 <div id="picture_right_content" <?php
@@ -394,7 +394,7 @@ if ($this->comments) {
 <?php
 }
 
-if ($this->show_credits) {
+if ($this->show_credits && false) {
 	?>
 <div class="jw_credits<?php
 	echo $this->class_suffix;
