@@ -21,6 +21,9 @@
 	line-height: 25px;
 }
 #footer .moduletable.menu li { padding: 0 3px; }
+#footer .moduletable.menu li:hover > span,
+#footer .moduletable.menu li:hover > a { color: black; }
+#footer .moduletable.menu li:hover > a { text-decoration: underline; }
 
 .moduletable.menu ul {
 	margin: 0;
