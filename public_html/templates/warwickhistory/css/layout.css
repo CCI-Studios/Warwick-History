@@ -45,13 +45,13 @@ body {
 }
 
 #content {
-	padding: 0 21px 0 4px;
-	background: url(../images/body_bg.png) 0 0 repeat-y;
+	padding: 0 24px 0 6px;
+	background: url(../images/body_bg.png) -5px 0 repeat-y;
 }
 #content > div { 
 	position: relative;
 	border-top: 1px solid black;
-	padding: 15px 39px 1px 41px;
+	padding: 15px 36px 1px 39px;
 }
 
 #footer {
@@ -61,7 +61,7 @@ body {
 	position: relative;
 	z-index: 2;
 
-	background: url(../images/body_bg_bottom.png) no-repeat -6px;
+	background: url(../images/body_bg_bottom.png) no-repeat -8px;
 	line-height: 50px;
 }
 #footer > div {
