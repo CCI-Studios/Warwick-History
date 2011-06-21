@@ -62,7 +62,6 @@ echo $this->id_class;
 echo ($this->picture_area_width > 100) ? 100 : $this->picture_area_width;
 ?>%; min-width: <?php
 echo $this->picture_container_min_width?>px;"><!-- LEFT START -->
-
 <h1><?php
 	echo $this->picInfo->title;
 	?></h1>
@@ -70,6 +69,12 @@ echo $this->picture_container_min_width?>px;"><!-- LEFT START -->
   <?php
 		echo '<div class="big_thumb' . $this->class_suffix . '"><a ' . $lightbox_link_attrs . '><img alt="' . htmlspecialchars ( $this->picInfo->title, ENT_QUOTES ) . '" src="' . $this->picUri . '" />' . $this->pic_pos_in_cat . '</a></div>';
 		?> 
+		<?php if ($this->picInfo->description): ?>
+	  <div class="pic_description<?php echo $this->class_suffix; ?>">
+			Description:<br/>
+			<?php echo $this->picInfo->description;?>
+		</div>
+	  <?php endif; ?>
 <?php
 if ($this->show_navigation) {
 	?>
